@@ -1,0 +1,41 @@
+form {
+    position: relative;
+    padding: 6px 10px;
+}
+form input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: 0;
+    color: #fff;
+    padding: 10px 30px 10px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.5s;
+}
+form input:focus {
+    border-color: #fff;
+}
+form input::placeholder {
+    color: rgba(255, 255, 255, 0.2);
+    font-style: italic;
+}
+form button {
+    position: absolute;
+    right: -13px;
+    bottom: -17px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+.search-box {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-color: black;
+} 

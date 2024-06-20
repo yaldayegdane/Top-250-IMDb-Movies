@@ -1,0 +1,27 @@
+.movie-list .list ul {
+    display: flex;
+    align-items: center;
+}
+.movie-list .list ul li {
+    padding: 0 5px;
+    transition: transform 0.3s;
+}
+.movie-list .list ul li:hover {
+    transform: scale(1.05);
+}
+.movie-list .list ul li img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.movie-list .list ul li h5 {
+    min-height: 100px;
+    max-width: 100px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

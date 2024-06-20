@@ -1,0 +1,36 @@
+.movie-list .list-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.movie-list .list-header a {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.movie-list .list-header:hover a {
+    opacity: 1;
+    visibility: visible;
+}
+.movie-list .list ul {
+    display: flex;
+    align-items: center;
+}
+.movie-list .list ul li {
+    padding: 0 5px;
+    transition: transform 0.3s;
+}
+.movie-list .list ul li:hover {
+    transform: scale(1.05);
+}
+.movie-list .list ul li img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.movie-list .list ul li h5 {
+    min-height: 100px;
+}

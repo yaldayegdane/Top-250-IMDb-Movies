@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Vazirmatn;
+    src: url('../public/fonts/vazirmatn/Vazirmatn-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../public/fonts/vazirmatn/Vazirmatn-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../public/fonts/vazirmatn/Vazirmatn-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../public/fonts/vazirmatn/Vazirmatn-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../public/fonts/vazirmatn/Vazirmatn-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../public/fonts/vazirmatn/Vazirmatn-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../public/fonts/vazirmatn/Vazirmatn-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../public/fonts/vazirmatn/Vazirmatn-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../public/fonts/vazirmatn/Vazirmatn-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* @font-face {
+    font-family: Vazir Code;
+    src: url('Vazir-Code.eot');
+    src: url('Vazir-Code.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Code.woff') format('woff'),
+         url('Vazir-Code.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: Vazir Code Hack;
+    src: url('Vazir-Code-Hack.eot');
+    src: url('Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Code-Hack.woff') format('woff'),
+         url('Vazir-Code-Hack.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  pre, code {
+    font-family: 'Vazir Code', 'Vazir Code Hack', monospaced;
+  } */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Vazirmatn;
+    direction: ltr;
+    margin: 0;
+    background: #131415;
+    color: #fff;
+  }
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+
+  input {
+    font-family: Vazirmatn;
+    border: none;
+    border-bottom: #000 solid 1px;
+  }
+
+  button {  
+  font-family: Vazirmatn;
+  padding: 1px 15px;
+  cursor: pointer;
+}
